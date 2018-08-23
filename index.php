@@ -1,12 +1,9 @@
 <?php
-
 include('controller.php');
 include('model.php');
 include('view.php');
-$start=array();
-$start['data'] = array('version'=>'0');
-$start['controller'] = new controller($start);
-$start['model'] = new model($start);
-$start['view'] = new view($start);
-
-?>
+$numberRandom= rand(1,1000);
+$action = array('id'=>$numberRandom);
+$action['controller']= new controller($action);
+$action['model']= new model($action);
+$action['view']= new view($action);
