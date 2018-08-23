@@ -4,6 +4,6 @@
 </head>
 <body>
 <div>MVC simple</div>
-<div></div>
+<div>ID <?php echo $this->DATA(); ?></div>
 </body>
 </html>

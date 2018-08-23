@@ -7,3 +7,4 @@ $action = array('id'=>$numberRandom);
 $action['controller']= new controller($action);
 $action['model']= new model($action);
 $action['view']= new view($action);
+unset($action);

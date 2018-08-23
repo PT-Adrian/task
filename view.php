@@ -6,5 +6,9 @@ class view {
     $this->action=$action;
     include('block.php');
     }
+    public function DATA(){
+
+    return $this->action['id'];
+    }
 }
 
